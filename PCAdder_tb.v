@@ -19,11 +19,12 @@ module PCAdder_tb();
     );
 
 	initial begin
-	
-     #10 PCResult <= 0;
-     #10 PCResult <= 10;
-     #10 PCResult <= 20;
-     
+
+		PCResult <= 0;
+		#10 PCResult <= 4;
+		#10 PCResult <= 8;
+		#10 PCResult <= 12;
+		#10 PCResult <= 16;
 	
 	end
 
