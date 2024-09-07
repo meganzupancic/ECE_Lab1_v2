@@ -1,8 +1,8 @@
 `timescale 1ns / 1ps
 
 ////////////////////////////////////////////////////////////////////////////////
-// Team Members:
-// Overall percent effort of each team meber: 
+// Team Members: Megan Zupancic, Annie Thiel
+// Overall percent effort of each team meber: Megan - 50%, Annie - 50%
 // 
 // ECE369A - Computer Architecture
 // Laboratory 3 (PostLab)
