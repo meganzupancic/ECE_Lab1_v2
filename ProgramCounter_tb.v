@@ -29,6 +29,10 @@ module ProgramCounter_tb();
 	initial begin
 	
     /* Please fill in the implementation here... */
+    
+    /*Our testbench tests that when address is assigned some number, the Instruction
+      (output) is the same. We also test that when rest is pressed, Instruction is
+      set to 0*/
         @(posedge Clk);
         Reset <= 1'b1;
         @(posedge Clk);
