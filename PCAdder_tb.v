@@ -20,6 +20,9 @@ module PCAdder_tb();
 
 	initial begin
 
+    /*This testbench takes in a value for PCResult, and increments that value by 4 and
+      will output that result as PCAddResult*/
+
 		PCResult <= 0;
 		#10 PCResult <= 4;
 		#10 PCResult <= 8;
@@ -29,4 +32,3 @@ module PCAdder_tb();
 	end
 
 endmodule
-
