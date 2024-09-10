@@ -21,6 +21,9 @@ module InstructionMemory_tb();
 	initial begin
 	
     /* Please fill in the implementation here... */
+    
+    /*This testbench assures that when an address is passed in, the index, Address[8:2],
+      stores the value of index * 3.*/
         #10 Address <= 0;
         #10 Address <= 4;
         #10 Address <= 8;
